@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\TscCommProtocal\TscCommProtocal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\TscCommProtocal\TscCommProtocal\bin\Debug\TscCommProtocal.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\TscCommProtocal\TscCommProtocal\bin\Debug\TscCommProtocal.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\TscCommProtocal\TscCommProtocal\obj\Debug\TscCommProtocal.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\TscCommProtocal\TscCommProtocal\obj\Debug\TscCommProtocal.pdb
+F:\TscCommProtocal\TscCommProtocal\obj\Debug\ResolveAssemblyReference.cache
+F:\TscCommProtocal\TscCommProtocal\obj\Debug\TscCommProtocal.dll
+F:\TscCommProtocal\TscCommProtocal\bin\Debug\TscCommProtocal.dll
+F:\TscCommProtocal\TscCommProtocal\bin\Debug\TscCommProtocal.pdb
+F:\TscCommProtocal\TscCommProtocal\obj\Debug\TscCommProtocal.pdb

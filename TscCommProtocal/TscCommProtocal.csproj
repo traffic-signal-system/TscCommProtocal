@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B58B0253-1B0C-44E9-9C6A-14CA95501502}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TscCommProtocal</RootNamespace>
+    <AssemblyName>TscCommProtocal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdapterParaComm.cs" />
+    <Compile Include="BaseTimeComm.cs" />
+    <Compile Include="ChannelComm.cs" />
+    <Compile Include="CollisionComm.cs" />
+    <Compile Include="CountDownComm.cs" />
+    <Compile Include="DetectorComm.cs" />
+    <Compile Include="EventLogComm.cs" />
+    <Compile Include="LampCheckComm.cs" />
+    <Compile Include="ModuleComm.cs" />
+    <Compile Include="Module\AdaptStageTime.cs" />
+    <Compile Include="Module\Channel.cs" />
+    <Compile Include="Module\CntDownDev.cs" />
+    <Compile Include="Module\Collision.cs" />
+    <Compile Include="Module\Define.cs" />
+    <Compile Include="Module\Detector.cs" />
+    <Compile Include="Module\EventLog.cs" />
+    <Compile Include="Module\LampCheck.cs" />
+    <Compile Include="Module\Message.cs" />
+    <Compile Include="Module\Module.cs" />
+    <Compile Include="Module\Node.cs" />
+    <Compile Include="Module\OverlapPhase.cs" />
+    <Compile Include="Module\Pattern.cs" />
+    <Compile Include="Module\Phase.cs" />
+    <Compile Include="Module\PhaseToDirec.cs" />
+    <Compile Include="Module\Plan.cs" />
+    <Compile Include="Module\ReportTscStatus.cs" />
+    <Compile Include="Module\Schedule.cs" />
+    <Compile Include="Module\SpecFun.cs" />
+    <Compile Include="Module\StageFactTime.cs" />
+    <Compile Include="Module\StagePattern.cs" />
+    <Compile Include="Module\StagePattern16.cs" />
+    <Compile Include="Module\TscData.cs" />
+    <Compile Include="Module\VariableSign.cs" />
+    <Compile Include="Module\VehicleStat.cs" />
+    <Compile Include="OverlapPhaseComm.cs" />
+    <Compile Include="PatternComm.cs" />
+    <Compile Include="PhaseComm.cs" />
+    <Compile Include="PhaseToDirecComm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleComm.cs" />
+    <Compile Include="StagePatternComm.cs" />
+    <Compile Include="TimingComm.cs" />
+    <Compile Include="TSCorPSCComm.cs" />
+    <Compile Include="TscServiceComm.cs" />
+    <Compile Include="Utils\AdapterPara.cs" />
+    <Compile Include="Utils\ByteUtils.cs" />
+    <Compile Include="Utils\CheckGBTUtil.cs" />
+    <Compile Include="Utils\DevMonitor.cs" />
+    <Compile Include="Utils\EventType.cs" />
+    <Compile Include="Utils\GBT_20999_Utils.cs" />
+    <Compile Include="Utils\INIClass.cs" />
+    <Compile Include="Utils\RuntasticHeartRate.cs" />
+    <Compile Include="Utils\TscDataUtils.cs" />
+    <Compile Include="Utils\Udp.cs" />
+    <Compile Include="Utils\Util.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
